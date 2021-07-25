@@ -71,10 +71,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We set the value of isStudent to true
+// We set the value of age to 34
+// We set the value of zip to 55407
+// We compare isStudent to true AND check if zip is greater than 8000
+// If true, we log "You're a student on the West Coast!"
+// Else if isStudent is false OR age is less than 30, we log "What are your hobbies?"
+// Else if isStudent is true we log, "Welcome to Prime!"
+// Else we log, "How about the weather?"
+// We console.log "Welcome to Prime!"
 
 //CODE
 /*
@@ -131,12 +136,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should be set to blue
 let colorOne = 'red';
+// colorTwo should be set to red
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// colorTwo should also be set to purple per instructions
 }
 */
 
@@ -146,8 +154,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// var time should use prefix let
 const time = 4;
-
+// this condition uses the OR operator, but needs the AND "&&" operator
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,10 +169,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// the comparison is checking age vs minAge, needs arguments reversed
+// the comparison needs to be greater than or equal to, change sign to ">"
 if(minAge <= age) {
+//the true statement should be "enter"
   console.log('no entry');
 } else {
+//the false statement should be "no entry"
   console.log('enter');
 }
 */
